@@ -10,15 +10,15 @@ body{
 }
 
 .title{
-    font-size: 5rem;
+    font-size: 2rem;
     font-family: sans-serif;
     color: brown;
 }
 
 .puzzle{
     margin-top: 10rem;
-    width: 600.7px;
-    height: 600.1px;
+    width: 360px;
+    height: 360px;
     background-color: snow;
     border: 10px solid darkblue;
     margin: 0 auto;
@@ -27,8 +27,8 @@ body{
 }
 
 .puzzle img{
-    width: 198px;
-    height: 198px;
+    width: 117px;
+    height: 118px;
     border: 1px solid darkcyan;
 }
 
