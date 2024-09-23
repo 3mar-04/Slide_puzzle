@@ -1,56 +1,55 @@
-body{
-    background-color: silver;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    flex-direction: column-reverse;
+body {
+  background-color: silver;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  flex-direction: column-reverse;
 }
 
-.title{
-    font-size: 2rem;
-    font-family: sans-serif;
-    color: brown;
+.title {
+  font-size: 2rem;
+  font-family: sans-serif;
+  color: brown;
 }
 
-.puzzle{
-    margin-top: 10rem;
-    width: 360px;
-    height: 360px;
-    background-color: snow;
-    border: 10px solid darkblue;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
+.puzzle {
+  margin-top: 10rem;
+  width: 360px;
+  height: 360px;
+  background-color: snow;
+  border: 10px solid darkblue;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.puzzle img{
-    width: 117px;
-    height: 118px;
-    border: 1px solid darkcyan;
+.puzzle img {
+  width: 117px;
+  height: 118px;
+  border: 1px solid darkcyan;
 }
 
-.turn{
-    display: block;
-    gap: 1rem;
-    text-align: center;
-    width: 100%;
-    margin: 3rem auto;
-
+.turn {
+  display: block;
+  gap: 1rem;
+  text-align: center;
+  width: 100%;
+  margin: 3rem auto;
 }
 
-.turn h1{
-    text-align: center;
-    font-size: 3rem;
-    font-family: sans-serif;
-    display: inline;
+.turn h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: sans-serif;
+  display: inline;
 }
 
-.turn h2{
-    font-size: 3rem;
-    color: blue;
-    display: inline;
-    font-family: sans-serif;
+.turn h2 {
+  font-size: 3rem;
+  color: blue;
+  display: inline;
+  font-family: sans-serif;
 }
